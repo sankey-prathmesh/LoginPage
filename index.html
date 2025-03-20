@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Login to access your account securely.">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <main class="container">
+        <section class="image-section"></section>
+        <section class="login-section">
+            <h5 class="text">Welcome back</h5>
+            <h1>Login to your account</h1>
+            <form>
+                <label for="email" class="text">Email</label>
+                <input type="email" id="email" placeholder="John.snow@gmail.com" class="text" required>
+
+                <label for="password" class="text">Password</label>
+                <input type="password" id="password" placeholder="********" class="text" required>
+
+                <div class="remember-forgot">
+                    <label class="remember-label">
+                        <input type="checkbox" name="remember"> Remember Me
+                    </label>
+                    <a href="#" style="color: #2C5282;">Forgot password?</a>
+                </div>
+                
+
+                <button type="submit" class="login-btn" aria-label="Login to your account">Login now</button>
+
+
+
+                <button type="button" class="google-btn"><span><img src="./img/google.png" alt="" class="google"></i></span>Or sign-in with google</button>
+
+            </form>
+            <p class="signup-text">Don't have an account? <a href="#">Join free today</a></p>
+        </section>
+    </main>
+</body>
+</html>
