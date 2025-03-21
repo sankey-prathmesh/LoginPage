@@ -13,17 +13,18 @@
 </head>
 <body>
     <main class="container">
-        <section class="image-section"></section>
+        <section class="image-section"><img src="/img/sider_image.png" alt=""></section>
         <section class="login-section">
             <h5 class="text">Welcome back</h5>
             <h1>Login to your account</h1>
-            <form>
+            <form id="loginForm">
                 <label for="email" class="text">Email</label>
                 <input type="email" id="email" placeholder="John.snow@gmail.com" class="text" required>
 
                 <label for="password" class="text">Password</label>
                 <input type="password" id="password" placeholder="********" class="text" required>
 
+                
                 <div class="remember-forgot">
                     <label class="remember-label">
                         <input type="checkbox" name="remember"> Remember Me
@@ -31,16 +32,17 @@
                     <a href="#" style="color: #2C5282;">Forgot password?</a>
                 </div>
                 
-
+                
                 <button type="submit" class="login-btn" aria-label="Login to your account">Login now</button>
+                <p id="error-message" class="error-msg"></p>
 
 
-
-                <button type="button" class="google-btn"><span><img src="./img/google.png" alt="" class="google"></i></span>Or sign-in with google</button>
+                <button type="submit" class="google-btn"><span><img src="./img/google.png" alt="" class="google"></i></span>Or sign-in with google</button>
 
             </form>
             <p class="signup-text">Don't have an account? <a href="#">Join free today</a></p>
         </section>
     </main>
+    <script src="./javascript/script.js"></script>
 </body>
 </html>
